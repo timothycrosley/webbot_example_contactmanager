@@ -1,5 +1,5 @@
 '''
-    The Home Page for %(label)s
+    The Home Page for ContactManager
 '''
 
 import os

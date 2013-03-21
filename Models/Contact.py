@@ -1,12 +1,9 @@
-"""
-    This is an example app engine data store model
-    Modify freely to fit your purposes.
-"""
+'''
+    Defines how to store contacts
+'''
 
 from google.appengine.ext import db
-from google.appengine.api import users
 from google.appengine.ext import search
-from google.appengine.api import files
 
 class Contact(search.SearchableModel):
     name = db.StringProperty(required=True)
