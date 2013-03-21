@@ -1,0 +1,11 @@
+indexes:
+
+- kind: Contact
+  properties:
+  - name: __searchable_text_index
+  - name: created
+    direction: desc
+
+- kind: Contact
+  properties:
+  - name: __searchable_text_index

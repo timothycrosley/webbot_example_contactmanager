@@ -1,0 +1,8 @@
+flow
+ vertical
+  > center#pageHeader
+  > horizontal
+  box#body style=border:0px;margin:0px;padding:0px;
+   > box#pageContents
+  center#footer.WActions
+   > copyright owner="Simple Innovation LLC"

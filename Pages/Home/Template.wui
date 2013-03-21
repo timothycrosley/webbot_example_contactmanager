@@ -1,0 +1,12 @@
+flow
+ vertical.IndentedContent
+  horizontal#toolbar.WActions
+   > button#create.MainAction text="Create New Contact"
+   layout-field.WRight text=Search:
+    > textbox#search placeholder="Contact Name or Info..." size=40
+  > horizontalrule
+  horizontal
+   box.ContactsContainer
+    > label@contacts text="Contacts go here."
+   box.EditorContainer
+    > label@editor text="Editor goes here."

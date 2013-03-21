@@ -1,0 +1,4 @@
+flow
+ vertical
+  > table@contacts
+  > itempager@pager itemsPerPage=10

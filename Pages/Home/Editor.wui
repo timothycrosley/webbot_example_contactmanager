@@ -1,0 +1,17 @@
+flow
+ vertical#contact
+  > message.WWarning text="WARNING: Contact information created on this site is visible to everyone."
+  center
+   > gravatar#gravatar size=300
+  fields
+   field#nameField text=Name:
+    > textbox#contactName
+    > validators-notempty
+   field#emailField text=Email:
+    > textbox#email
+    > validators-email
+   field#phoneField text="Phone Number:"
+    > textbox#phone
+    > validators-phonenumber
+  horizontal
+   > button#delete.DeleteAction text=Delete
